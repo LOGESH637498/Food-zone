@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOOD ZONE</title>
+    <link rel="icon" href="./IMG/p8.avif">
+     <link rel="stylesheet" href="newfood.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+   
+<nav>
+<ul class="ul" id="app">
+    <li><h1>FOODZONE</h1></li>
+    <li class="list"><a href="#">HOME</a></li>
+    <li class="list"><a href="http://127.0.0.1:5500/sign%20up/ABOUT/About.html#">ABOUT</a></li>
+    <li class="list"><a href="#">HELP</a></li>
+    <li class="list"><a href="#" id="add">CART <span><i class="fa-solid fa-cart-arrow-down"></i></span><p class="count">0</p></a></li>
+   <div class="navbtns">
+   <button class="list"><a href="http://127.0.0.1:5500/log%20in/login.html" class="login">LOG IN</a></button>
+    <button style="margin-left: 20px;" class="list"><a href="http://127.0.0.1:5500/sign%20up/sign-up.html" class="login">SIGN UP</a></button>
+    <li onclick=slide_open() class="bar"><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+</div> 
+</ul>
+
+<ul class="nav_slide">
+    <li class="close" onclick=slide_close()><a href="#">X</a></li>
+    <li style="margin-top: 40px;"><a href="#">HOME</a></li>
+    <li><a href="http://127.0.0.1:5500/sign%20up/ABOUT/About.html#">ABOUT</a></li>
+    <li><a href="#">HELP</a></li>
+    <li><a href="#" id="add">CART <span><i class="fa-solid fa-cart-arrow-down"></i></span><p class="count">0</p></a></li>
+
+</ul>
+</nav>
+<div class="mainbanner">
+    <img src="./IMG/mainbanner.png" alt="" width="100%" height="600px">
+</div>
+
+<!-- ----------FOODBOX CONTAINER--------------- -->
+        
+        <div class="fullbody">
+        <div class="slogan">
+       
+        <h1  id="left-slide">FOR THE L<span style="color: red; font-size: 30px;"><i class="fa-solid fa-heart"></i></span>VE OF DELICIOUS FOOD</h1>
+        <h3 style="margin-top: 10px;" id="left-slide">LIFE IS SHORT, MAKE IT SWEET!....</h3>
+
+    </div>
+        <div class="cart-box">
+
+            <div class="cart">
+
+                    <img src="./IMG/P1.avif" alt="#" class="food-img">
+                    <h2 class="h2">BURGAR</h2>
+                    <button class="btn1">Rs.190<i class="fa-solid fa-indian-rupee-sign"></i></button>
+                    <button class="add">+</button>
+                
+            </div>
+        
+
+                
+         
+
+            <div class="cart">
+                <img src="./IMG/p2.jpg" alt="#" class="food-img">
+                <h2 class="h2">FRIED CHICKEN</h2>
+                    <button class="btn1">Rs.250<i class="fa-solid fa-indian-rupee-sign"></i></button>
+                    <button class="add">+</button>
+
+            </div>
+
+            <div class="cart">
+                <img src="./IMG/p3.jpg" alt="#" class="food-img">
+                <h2 class="h2">PIZZA</h2>
+                    <button class="btn1">Rs.200<i class="fa-solid fa-indian-rupee-sign"></i></button>
+                    <button class="add">+</button>
+                
+            </div>
+
+            <div class="cart">
+                <img src="./IMG/p4.avif" alt="#" class="food-img">
+                <h2 class="h2">GRILL CHICKEN</h2>
+                    <button class="btn1">Rs.300<i class="fa-solid fa-indian-rupee-sign"></i></button>
+                    <button class="add">+</button>
+
+            </div>
+
+            <div class="cart">
+                <img src="./IMG/p5.avif" alt="#" class="food-img">
+                <h2 class="h2">MOMOS</h2>
+                    <button class="btn1">Rs.80<i class="fa-solid fa-indian-rupee-sign"></i></button>
+                    <button class="add">+</button>
+            
+            </div>
+
+            <div class="cart">
+                <img src="./IMG/p6.jpg" alt="#" class="food-img">
+                <h2 class="h2">SANWITCH</h2>
+                    <button class="btn1">Rs.60<i class="fa-solid fa-indian-rupee-sign"></i></button>
+                    <button class="add">+</button>
+            
+            </div>
+
+            <div class="cart">
+                <img src="./IMG/p7.avif" alt="#" class="food-img">
+                <h2 class="h2">FRINCH FRIEDS</h2>
+                    <button class="btn1">Rs.60<i class="fa-solid fa-indian-rupee-sign"></i></button>
+                    <button class="add">+</button>
+              
+            </div>
+
+            <div class="cart">
+                <img src="./IMG/p8.avif" alt="#" class="food-img">
+                <h2 class="h2">MOJITO</h2>
+                    <button class="btn1">Rs.70<i class="fa-solid fa-indian-rupee-sign"></i></button>
+                    <button class="add">+</button>
+                
+            </div>
+
+            <div class="cart">
+                <img src="./IMG/p9.webp" alt="#" class="food-img">
+                <h2 class="h2">ICE CREAM</h2>
+                    <button class="btn1">Rs.40<i class="fa-solid fa-indian-rupee-sign"></i></button>
+                    <button class="add">+</button>
+             
+            </div>
+
+            <div class="cart">
+                <img src="./IMG/p10.jpg" alt="#" class="food-img">
+                <h2 class="h2">SAWARMA ROLL</h2>
+                    <button class="btn1">Rs.90<i class="fa-solid fa-indian-rupee-sign"></i></button>
+                    <button class="add">+</button>
+              
+            </div>
+
+            <div class="cart">
+                <img src="./IMG/p11.jpg" alt="#" class="food-img">
+                <h2 class="h2">FRIED RICE</h2>
+                    <button class="btn1">Rs.100<i class="fa-solid fa-indian-rupee-sign"></i></button>
+                    <button class="add">+</button>
+               
+            </div>
+
+            <div class="cart">
+                <img src="./IMG/p12.jpg" alt="#" class="food-img">
+                <h2 class="h2">LOLIPOP</h2>
+                    <button class="btn1">Rs.240<i class="fa-solid fa-indian-rupee-sign"></i></button>
+                    <button class="add">+</button>
+            
+            </div>
+             
+        </div>
+<!-- ------------------slidecart--------------------- -->
+
+<div class="slide">
+    <div class="title">cart-items</div>
+    <div class="content">
+
+      
+        </div>
+        <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">Rs.0</div>
+        </div>
+        <button class="buy-btn">PLACE ORDER</button>
+        <i class="fa-solid fa-circle-xmark" id="close"></i>
+        </div> 
+
+        
+
+ <!-- -----------footer-------------        -->
+    
+<div class="hr"></div>
+
+             <div class="footer">
+            
+            <div class="info">
+                <ul>
+                <li class="li">Formats</li>
+                <li class="li">Compression</li>
+                <li class="li">Pricing</li>
+                <li class="li">FAQ</li>
+                <li class="li">Status</li>
+            </ul>
+            </div>
+
+            <div class="getting-started">
+                <ul>
+                <li class="li">Introduction</li>
+                <li class="li">Themes</li>
+                <li class="li">Documentation</li>
+                <li class="li">usages</li>
+                <li class="li">global</li>
+            </ul>
+            </div>
+            <div class="CONTACTS">
+                <ul class="ul1">
+                    <li><h1>LOGESWARAN</h1></li>
+                    <li><h2>CEO OF FOOD ZONE</h2></li>
+                    <li><h3>MOB-6374982070</h3></li>
+                    <li><h4>Mail id - www.foodzone@gmail.com</h4></li>
+                    <li><h4>website - WWW.FOODZONE.COM</h4></li>
+                </ul>
+            </div>
+    
+            <div class="website">
+                <ul>
+                <li class="li1">SITE LINK...</li>
+                <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi minus earum consequatur tempore magnam libero?</li>
+                <li class="li1"><input type="text" placeholder="Enter You Want..." class="i-box"></li>
+                <li class="li1"><button class="bn">CHECK</button></li>
+                </ul>
+            <div class="WEB">
+                <ul>
+                    <li class="font"><a href=""><i class="fa-brands fa-square-instagram" id="insta"></i></a></li>
+                    <li class="font"><a href=""><i class="fa-brands fa-square-google-plus" id="google"></i></a></li>
+                    <li class="font"><a href=""><i class="fa-brands fa-square-facebook" id="fb"></i></a></li>
+                    <li class="font"><a href=""><i class="fa-brands fa-linkedin" id="in"></i></a></li>
+                    <li class="font"><a href=""><i class="fa-brands fa-youtube" id="you"></i></a></li>
+                    <li class="font"><a href=""><i class="fa-brands fa-square-twitter" id="twitter"></i></a></li>
+                    
+                </ul>
+            </div>
+            </div>
+
+        </div>
+        <div class="copy">
+            <Center>
+            <p>COPY RIGHT© FOOD ZONE - 2025. All rights reserved. <span><h4 class="design">DESIGNED BY Mr. LOGESWARAN</h4></span></p>
+        </Center>
+        </div>
+    </div> 
+
+        <script src="food.js"></script>
+</body>
+</html> 

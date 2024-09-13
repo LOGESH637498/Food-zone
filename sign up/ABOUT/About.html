@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <title>FOOD ZONE</title>
+</head>
+<body>
+    <nav>
+        <ul class="ul">
+            <li><h1>FOODZONE</h1></li>
+            <li class="list"><a href="http://127.0.0.1:5500/FOOD.HTML#">HOME</a></li>
+            <li class="list"><a href="#">ABOUT</a></li>
+            <li class="list"><a href="#">HELP</a></li>
+            <li class="list"><a href="#">CONTACT</a></li>
+            <!-- <li class="list"><a href="#" id="add">CART <span><i class="fa-solid fa-cart-arrow-down"></i></span><p class="count">0</p></a></li> -->
+           <div class="navbtns">
+           <button class="list"><a href="http://127.0.0.1:5500/log%20in/login.html" class="login">LOG IN</a></button>
+            <button style="margin-left: 20px;" class="list"><a href="http://127.0.0.1:5500/sign%20up/sign-up.html" class="login">SIGN UP</a></button>
+            <li onclick=slide_open() class="bar"><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+        </div> 
+        </ul>
+        
+        <ul class="nav_slide">
+            <li class="close" onclick=slide_close()><a href="#">X</a></li>
+            <li style="margin-top: 40px;"><a href="http://127.0.0.1:5500/FOOD.HTML#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">HELP</a></li>
+            <li><a href="#" id="add">CART <span><i class="fa-solid fa-cart-arrow-down"></i></span><p class="count">0</p></a></li>
+        
+        </ul>
+        </nav>
+
+        <div class="aboutbox">
+            <div class="ab-box1">
+                <h2>ABOUT US</h2>
+                <p>Being among the first few entrants, Foodzone has successfully pioneered the hyperlocal commerce industry in India, launching Food Delivery in 2014 and Quick Commerce in 2020. Due to the pioneering status of Foodzone, it is well-recognised as a leader in innovation in hyperlocal commerce and as a brand synonymous with the categories it is present in.</p>
+            </div>
+            <div class="ab-box2">
+                    <img src="./about-img1-new.png" alt="">
+                    <span><i class="fa-solid fa-cart-arrow-down"></i></span>
+            </div>
+        </div>
+
+        <script src="about.js"></script>    
+</body>
+</html>
